@@ -83,7 +83,10 @@ X₀ → predict() → 单步预测 → integrate() → N步迭代 → 完整轨
 ![故障后100个时间步的预测误差](src/logs/fault_error_plots/fault_injection_100.png)
 ## 轨迹预测结果
 ![轨迹预测结果](src/logs/mindspore_pinn_4npu/trajectories_enhanced_size.png)
-## Loss曲线
+## 训练Loss曲线
 ![Loss曲线](src/logs/mindspore_pinn_4npu/loss_curve.png)
+## 4个动态和1个代数变量预测的L2相对损失如下图:
+![4个动态和1个代数变量预测的L2相对损失](src\logs\mindspore_pinn_4npu\L2_errors_all.pdf)
+
 
 
