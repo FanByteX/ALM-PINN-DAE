@@ -86,7 +86,7 @@ X₀ → predict() → 单步预测 → integrate() → N步迭代 → 完整轨
 ## 训练Loss曲线
 ![Loss曲线](src/logs/mindspore_pinn_4npu/loss_curve.png)
 ## 4个动态和1个代数变量预测的L2相对损失如下图:
-![4个动态和1个代数变量预测的L2相对损失](src\logs\mindspore_pinn_4npu\L2_errors_all.pdf)
+![4个动态和1个代数变量预测的L2相对损失](src\logs\mindspore_pinn_4npu\L2relative_error.png)
 
 
 
