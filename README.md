@@ -38,7 +38,7 @@ python main.py --epochs 10000 --lr 0.001 --dyn-type attention
   ↓
 (ω₁,ω₂,δ₂,δ₃)  →  [代数变量网络Z]  →  V₃ (电压×101个时间节点)
 ```
-- **ResPINN**：残差物理信息神经网络，支持 `fnn`/`attention`/`Conv1D` 架构
+- **Res-PINN**：残差物理信息神经网络，支持 `fnn`/`attention`/`Conv1D` 架构
 - **动态网络Y**：4层×100宽度，输出所有IRK节点的状态预测
 - **代数网络Z**：2层×40宽度，预测代数变量V₃
 ### 2. IRK时间离散
