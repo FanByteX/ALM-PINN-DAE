@@ -75,7 +75,7 @@ DeepXDE采样 → dae_data加载 → supervisor.train() → Adam优化 → check
 X₀ → predict() → 单步预测 → integrate() → N步迭代 → 完整轨迹
 ```
 ## 应用场景
-三母线电力系统故障仿真：正常运行(0-4s, b=10) → 线路故障(4s+, b=5)
+三母线电力系统故障仿真：正常运行(0-4s, b=10) → 线路故障(4以后, b=5)
 变量: ω₁,ω₂(角速度), δ₂,δ₃(功角), V₃(电压)
 ## 0-16s内动态变量(ω₁,ω₂,δ₂,δ₃)和代数变量(V₃)真解与预测解对比（t=4s故障扰动）：
 ![故障扰动对比](src/logs/visualize_fault/fault_at_4s_comparison.png)
