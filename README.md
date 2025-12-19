@@ -81,7 +81,9 @@ X₀ → predict() → 单步预测 → integrate() → N步迭代 → 完整轨
 ![故障扰动对比](src/logs/visualize_fault/fault_at_4s_comparison.png)
 ## 故障后100个时间步的预测误差
 ![故障后100个时间步的预测误差](src/logs/fault_error_plots/fault_injection_100.png)
+## 轨迹预测结果
 ![轨迹预测结果](src/logs/mindspore_pinn_4npu/trajectories_enhanced_size.png)
+## Loss曲线
 ![Loss曲线](src/logs/mindspore_pinn_4npu/loss_curve.png)
 
 
